@@ -1,0 +1,115 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "USERS",
+    "collectionId": "24bc791b-5cd0-4834-b6f5-ffb019554131",
+    "dateExported": "2025-02-17T05:30:51.432Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ce5e9732-73f8-4ea1-91f2-f0fdde8677d7",
+            "colId": "24bc791b-5cd0-4834-b6f5-ffb019554131",
+            "containerId": "",
+            "name": "REGISTER/TEACHER",
+            "url": "http://localhost:3000/schoolControl/v1/auth/register/teacher",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-17T05:11:40.061Z",
+            "modified": "2025-02-17T05:24:18.342Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Elmer\",\n  \"surname\": \"Santos\",\n  \"username\": \"esantos\",\n  \"email\": \"esantos@gmail.com\",\n  \"password\": \"12345678\",\n  \"profilePicture\": \"\",\n  \"phone\": \"12345678\",\n  \"role\": \"TEACHER_ROLE\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e7dfad2b-6adb-4fa0-90ef-60974c8ec19c",
+            "colId": "24bc791b-5cd0-4834-b6f5-ffb019554131",
+            "containerId": "",
+            "name": "REGISTER/STUDENT",
+            "url": "http://localhost:3000/schoolControl/v1/auth/register/student",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-17T05:13:22.701Z",
+            "modified": "2025-02-17T05:26:45.757Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Gerardo\",\n  \"surname\": \"Contreras\",\n  \"username\": \"gcontreras\",\n  \"email\": \"gcontreras@gmail.com\",\n  \"password\": \"12345678\",\n  \"profilePicture\": \"\",\n  \"phone\": \"12345678\",\n  \"role\": \"STUDENT_ROLE\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f49b4698-6646-441e-8a4e-b552fc629a92",
+            "colId": "24bc791b-5cd0-4834-b6f5-ffb019554131",
+            "containerId": "",
+            "name": "LOGIN",
+            "url": "http://localhost:3000/schoolControl/v1/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-02-17T05:15:20.244Z",
+            "modified": "2025-02-17T05:28:04.125Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"esantos@gmail.com\",\n  \"password\": \"12345678\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d154727b-b54e-4a9c-a8b4-871425adeb15",
+            "colId": "24bc791b-5cd0-4834-b6f5-ffb019554131",
+            "containerId": "",
+            "name": "GET USERS",
+            "url": "http://localhost:3000/schoolControl/v1/users?limite=10&desde=0",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-02-17T05:17:30.853Z",
+            "modified": "2025-02-17T05:28:43.586Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "limite",
+                    "value": "10",
+                    "isPath": false
+                },
+                {
+                    "name": "desde",
+                    "value": "0",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "9e01541d-7e99-42eb-854d-40f8f0b29f53",
+            "colId": "24bc791b-5cd0-4834-b6f5-ffb019554131",
+            "containerId": "",
+            "name": "UPDATE",
+            "url": "http://localhost:3000/schoolControl/v1/users/67b2c84438a309ea9e3fc700",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2025-02-17T05:18:48.967Z",
+            "modified": "2025-02-17T05:29:49.995Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Carlos\",\n  \"surname\": \"Cortez\",\n  \"username\": \"ccortez\",\n  \"email\": \"cortez@gmail.com\",\n  \"password\": \"12345678\",\n  \"profilePicture\": \"\",\n  \"phone\": \"12345678\",\n  \"role\": \"STUDENT_ROLE\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9190a65d-3cca-4dfb-94c1-e6b921db3cd1",
+            "colId": "24bc791b-5cd0-4834-b6f5-ffb019554131",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "http://localhost:3000/schoolControl/v1/users/67b2c84438a309ea9e3fc700",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2025-02-17T05:22:23.327Z",
+            "modified": "2025-02-17T05:30:24.903Z",
+            "headers": []
+        }
+    ],
+    "ref": "lvt5AqaD4tJgvVJo3U45X5XfKW0MLSVCs0-XWgF0lMnP32ysh_WqsNDpyfrdmQEdGEKfzt1NjMWXf_RzwxM8jQ"
+}
